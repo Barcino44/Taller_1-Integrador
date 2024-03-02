@@ -1,5 +1,7 @@
 package org.example.Model;
 
+import org.example.TypeMessage;
+
 public class Message {
     private String author;
     private String typeMessage;
@@ -23,7 +25,4 @@ public class Message {
         return typeMessage;
     }
 
-    public void setTypeMessage(String typeMessage) {
-        this.typeMessage = typeMessage;
-    }
 }
